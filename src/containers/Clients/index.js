@@ -48,7 +48,7 @@ export default function Clients() {
     return (
       <>
         <Dashboard/>
-        <div style={{width:"80% ",padding:"25px"}}>
+        <div style={{width:"80% ",padding:"25px",overflowY:"scroll"}}>
             <div className="d-flex  justify-content-between align-items-center">
             <h1>Clients</h1>
             <Link className="btn btn-primary" to='/clients/add'> Add patient</Link>
