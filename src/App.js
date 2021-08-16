@@ -27,7 +27,6 @@ function App() {
      {
         routes.public.map(item=>{
           return(<Route key={item.key} exact={item.exact} path={item.path} component={item.component}/>
-          
           )
         })
       }
